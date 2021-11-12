@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.moviedb"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:8:22-64
+15
+16    <application
+16-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:10:5-32:19
+17        android:allowBackup="true"
+17-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] E:\Tugas VP\Mobdev-Firman-main\gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.MovieDB" >
+26-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:16:9-45
+27        <activity
+27-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:17:9-19:39
+28            android:name="com.example.moviedb.view.MovieDetailsActivity"
+28-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:18:13-54
+29            android:exported="true" />
+29-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:19:13-36
+30        <activity
+30-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:20:9-22:39
+31            android:name="com.example.moviedb.view.Main_Activity"
+31-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:21:13-47
+32            android:exported="true" />
+32-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:22:13-36
+33        <activity
+33-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:23:9-31:20
+34            android:name="com.example.moviedb.view.NowPlayingActivity"
+34-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:24:13-52
+35            android:exported="true" >
+35-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:25:13-36
+36            <intent-filter>
+36-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:27:17-69
+37-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:27:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:29:17-77
+39-->C:\Users\YONATAN\AndroidStudioProjects\MovieDB_TugasMobdev_week5-main\MovieDB- Tugas-Week5\app\src\main\AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] E:\Tugas VP\Mobdev-Firman-main\gradle\caches\transforms-3\51a76857de97cd111203b3226346932c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] E:\Tugas VP\Mobdev-Firman-main\gradle\caches\transforms-3\51a76857de97cd111203b3226346932c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+45            android:authorities="com.example.moviedb.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] E:\Tugas VP\Mobdev-Firman-main\gradle\caches\transforms-3\51a76857de97cd111203b3226346932c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] E:\Tugas VP\Mobdev-Firman-main\gradle\caches\transforms-3\51a76857de97cd111203b3226346932c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] E:\Tugas VP\Mobdev-Firman-main\gradle\caches\transforms-3\51a76857de97cd111203b3226346932c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+48    </application>
+49
+50</manifest>
